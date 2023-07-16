@@ -1,0 +1,30 @@
+const friend1 = "Ahmad";
+const friend2 = "Junaid";
+const friend3 = "Adil";
+
+const friends = ["Ahmad", "Junaid", "Adil"];
+console.log(friends);
+
+const years = new Array(1998, 1999, 2000);
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = "Atif";
+console.log(friends);
+
+result is        (3) ['Ahmad', 'Junaid', 'Adil']
+                  0: "Ahmad"
+                  1: "Junaid"
+                  2: "Atif"
+                         Ahmad
+                     Adil
+                      3
+                   Adil
+              (3) ['Ahmad', 'Junaid', 'Atif']
+               0: "Ahmad"
+               1: "Junaid"
+               2: "Atif"
+
